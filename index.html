@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ruthie Morales — Aspiring Business Analyst | Portfolio">
+  <meta name="description" content="Ruth Morales Baluyut — Aspiring Business Analyst | Portfolio">
   <title>Ruth Morales Baluyut · Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -30,37 +30,59 @@
 
   <main>
     <section class="hero" aria-labelledby="hero-heading">
-      <div class="hero-bg" aria-hidden="true"></div>
-      <div class="hero-inner">
-        <div class="hero-rule fade-in" aria-hidden="true"></div>
-        <p class="hero-eyebrow fade-in">Hello, I'm</p>
-        <h1 id="hero-heading" class="hero-title fade-in">Ruth Morales Baluyut</h1>
-        <p class="hero-subtitle fade-in">Aspiring Business Analyst <span class="hero-dot" aria-hidden="true">·</span> System &amp; Web Development</p>
-        <blockquote class="hero-tagline fade-in">
-          <p>Turning business needs into structured, functional systems.</p>
-        </blockquote>
-        <a class="btn btn-primary fade-in" href="#projects">View My Projects</a>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-eyebrow fade-in">Hello, my name is</p>
+          <h1 id="hero-heading" class="hero-title fade-in">Ruth Morales Baluyut</h1>
+          <p class="hero-subtitle fade-in">Aspiring Business Analyst · System &amp; Web Development</p>
+          <p class="hero-intro fade-in">Turning business needs into structured, functional systems.</p>
+          <div class="hero-actions fade-in">
+            <a class="btn btn-primary" href="#projects">View My Projects</a>
+            <a class="btn btn-outline" href="#contact">Contact me</a>
+          </div>
+        </div>
+        <div class="hero-visual fade-in">
+          <div class="hero-blob" aria-hidden="true"></div>
+          <div class="hero-photo">
+            <!-- Optional: add <img class="hero-photo-img" src="your-photo.jpg" alt="Ruth Morales Baluyut"> -->
+            <span class="hero-photo-placeholder" aria-hidden="true">RM</span>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="section about" id="about" aria-labelledby="about-heading">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="section-index" aria-hidden="true">01</span>
-          <h2 id="about-heading" class="section-title">About Me</h2>
+      <div class="container about-layout">
+        <div class="about-visual reveal">
+          <div class="about-avatar" aria-hidden="true">
+            <span class="about-avatar-initials">RM</span>
+          </div>
         </div>
-        <p class="about-text reveal">
-          I am a Business Analyst student with experience in creating business requirements, process flows, and system documentation. I also build websites using WordPress and WooCommerce, focusing on functionality and user experience.
-        </p>
+        <div class="about-copy reveal">
+          <h2 id="about-heading" class="section-title section-title--left">About me</h2>
+          <p class="about-text">
+            I am a Business Analyst student with experience in creating business requirements, process flows, and system documentation. I also build websites using WordPress and WooCommerce, focusing on functionality and user experience.
+          </p>
+          <a class="btn btn-primary btn-resume" href="#" download>Resume</a>
+          <ul class="social-row" aria-label="Social links">
+            <li>
+              <a class="social-link" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-link" href="mailto:your.email@example.com" aria-label="Email">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 
     <section class="section skills" id="skills" aria-labelledby="skills-heading">
       <div class="container">
-        <div class="section-head reveal">
-          <span class="section-index" aria-hidden="true">02</span>
-          <h2 id="skills-heading" class="section-title">Skills</h2>
-        </div>
+        <h2 id="skills-heading" class="section-title section-title--center reveal"><span class="section-title-text">Skills</span></h2>
         <ul class="skills-grid">
           <li class="skill-card reveal">
             <h3 class="skill-title">Business Requirements Documentation (BRD)</h3>
@@ -88,71 +110,78 @@
 
     <section class="section projects" id="projects" aria-labelledby="projects-heading">
       <div class="container">
-        <div class="section-head reveal">
-          <span class="section-index" aria-hidden="true">03</span>
-          <h2 id="projects-heading" class="section-title">Projects</h2>
-        </div>
-        <div class="projects-grid">
-          <article class="project-card reveal">
-            <h3 class="project-title">Payroll System (Capstone Project)</h3>
-            <p class="project-desc">Developed a structured payroll system including onboarding workflows, transaction logic, and reporting.</p>
-            <p class="project-tools"><span class="label">Tools:</span> Excel, Documentation, Process Design</p>
-            <a class="btn btn-outline btn-small" href="#" aria-label="View Payroll System project (placeholder)">View Project</a>
+        <h2 id="projects-heading" class="section-title section-title--center reveal"><span class="section-title-text">Projects</span></h2>
+        <div class="projects-list">
+          <article class="project-row reveal">
+            <div class="project-row__text">
+              <h3 class="project-title">Payroll System (Capstone Project)</h3>
+              <p class="project-desc">Developed a structured payroll system including onboarding workflows, transaction logic, and reporting.</p>
+              <p class="project-tools"><span class="label">Tools:</span> Excel, Documentation, Process Design</p>
+              <a class="btn btn-outline btn-small" href="#" aria-label="View Payroll System project (placeholder)">View Project</a>
+            </div>
+            <div class="project-row__media" aria-hidden="true">
+              <div class="project-thumb project-thumb--payroll"></div>
+            </div>
           </article>
-          <article class="project-card reveal">
-            <h3 class="project-title">Driving Academy Website</h3>
-            <p class="project-desc">Built an e-commerce booking system using WooCommerce with Stripe integration.</p>
-            <p class="project-tools"><span class="label">Tools:</span> WordPress, WooCommerce, Stripe</p>
-            <a class="btn btn-outline btn-small" href="#" aria-label="View Driving Academy project (placeholder)">View Project</a>
+          <article class="project-row project-row--reverse reveal">
+            <div class="project-row__text">
+              <h3 class="project-title">Driving Academy Website</h3>
+              <p class="project-desc">Built an e-commerce booking system using WooCommerce with Stripe integration.</p>
+              <p class="project-tools"><span class="label">Tools:</span> WordPress, WooCommerce, Stripe</p>
+              <a class="btn btn-outline btn-small" href="#" aria-label="View Driving Academy project (placeholder)">View Project</a>
+            </div>
+            <div class="project-row__media" aria-hidden="true">
+              <div class="project-thumb project-thumb--academy"></div>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
     <section class="section contact" id="contact" aria-labelledby="contact-heading">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="section-index" aria-hidden="true">04</span>
-          <h2 id="contact-heading" class="section-title">Contact</h2>
-        </div>
-        <div class="contact-layout reveal">
-          <div class="contact-details">
-            <p class="contact-intro">I'd love to connect. Reach out by email or LinkedIn, or use the form.</p>
-            <ul class="contact-links">
-              <li>
-                <span class="contact-label">Email</span>
-                <a href="mailto:your.email@example.com">your.email@example.com</a>
-              </li>
-              <li>
-                <span class="contact-label">LinkedIn</span>
-                <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">linkedin.com/in/your-profile</a>
-              </li>
-            </ul>
+      <div class="container contact-wrap">
+        <h2 id="contact-heading" class="section-title section-title--center reveal"><span class="section-title-text">Contact</span></h2>
+        <p class="contact-lead reveal">Have a question or want to work together? Leave a message below.</p>
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required placeholder="Your name">
           </div>
-          <form class="contact-form" id="contact-form" novalidate>
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" autocomplete="name" required placeholder="Your name">
-            </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" autocomplete="email" required placeholder="you@example.com">
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="4" required placeholder="Your message"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Send Message</button>
-            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
-          </form>
-        </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required placeholder="you@example.com">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
+    <div class="footer-wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#FDC435" d="M0,55 C240,100 480,10 720,50 C960,90 1200,20 1440,60 L1440,100 L0,100 Z"/>
+      </svg>
+    </div>
     <div class="container footer-inner">
-      <p>&copy; <span id="year"></span> Ruthie Morales. All rights reserved.</p>
+      <ul class="footer-social" aria-label="Social">
+        <li>
+          <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:your.email@example.com" aria-label="Email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+          </a>
+        </li>
+      </ul>
+      <p class="footer-copy">&copy; <span id="year"></span> Ruth Morales Baluyut</p>
       <a class="footer-top" href="#top">Back to top</a>
     </div>
   </footer>
