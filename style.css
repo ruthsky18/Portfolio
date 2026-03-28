@@ -629,6 +629,14 @@ a {
   box-shadow: var(--shadow-card);
 }
 
+.project-cover {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
 .project-thumb {
   aspect-ratio: 4 / 3;
   min-height: 200px;
@@ -639,10 +647,6 @@ a {
 
 .project-thumb--payroll {
   background-image: linear-gradient(135deg, #fff9e6 0%, var(--color-yellow) 45%, #f0d878 100%);
-}
-
-.project-thumb--academy {
-  background-image: linear-gradient(135deg, #e8f4fc 0%, #b8d4e8 50%, var(--color-yellow) 100%);
 }
 
 /* —— Contact —— */
