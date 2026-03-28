@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ruthie Morales — Aspiring Business Analyst | Portfolio">
+  <title>Ruthie Morales · Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Primary">
+      <a class="logo" href="#top">Ruthie Morales</a>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <div class="hero-rule fade-in" aria-hidden="true"></div>
+        <p class="hero-eyebrow fade-in">Hello, I'm</p>
+        <h1 id="hero-heading" class="hero-title fade-in">Ruthie Morales</h1>
+        <p class="hero-subtitle fade-in">Aspiring Business Analyst <span class="hero-dot" aria-hidden="true">·</span> System &amp; Web Development</p>
+        <blockquote class="hero-tagline fade-in">
+          <p>Turning business needs into structured, functional systems.</p>
+        </blockquote>
+        <a class="btn btn-primary fade-in" href="#projects">View My Projects</a>
+      </div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-index" aria-hidden="true">01</span>
+          <h2 id="about-heading" class="section-title">About Me</h2>
+        </div>
+        <p class="about-text reveal">
+          I am a Business Analyst student with experience in creating business requirements, process flows, and system documentation. I also build websites using WordPress and WooCommerce, focusing on functionality and user experience.
+        </p>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-index" aria-hidden="true">02</span>
+          <h2 id="skills-heading" class="section-title">Skills</h2>
+        </div>
+        <ul class="skills-grid">
+          <li class="skill-card reveal">
+            <h3 class="skill-title">Business Requirements Documentation (BRD)</h3>
+            <p class="skill-desc">Clear specs that align stakeholders and delivery.</p>
+          </li>
+          <li class="skill-card reveal">
+            <h3 class="skill-title">Process Mapping &amp; Analysis</h3>
+            <p class="skill-desc">Visual flows and improvements for operational clarity.</p>
+          </li>
+          <li class="skill-card reveal">
+            <h3 class="skill-title">WordPress &amp; WooCommerce</h3>
+            <p class="skill-desc">Sites and shops with solid UX and e-commerce flows.</p>
+          </li>
+          <li class="skill-card reveal">
+            <h3 class="skill-title">Basic MySQL</h3>
+            <p class="skill-desc">Foundational data querying and structure awareness.</p>
+          </li>
+          <li class="skill-card reveal">
+            <h3 class="skill-title">Excel Automation</h3>
+            <p class="skill-desc">Spreadsheets that scale with formulas and logic.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-index" aria-hidden="true">03</span>
+          <h2 id="projects-heading" class="section-title">Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <h3 class="project-title">Payroll System (Capstone Project)</h3>
+            <p class="project-desc">Developed a structured payroll system including onboarding workflows, transaction logic, and reporting.</p>
+            <p class="project-tools"><span class="label">Tools:</span> Excel, Documentation, Process Design</p>
+            <a class="btn btn-outline btn-small" href="#" aria-label="View Payroll System project (placeholder)">View Project</a>
+          </article>
+          <article class="project-card reveal">
+            <h3 class="project-title">Driving Academy Website</h3>
+            <p class="project-desc">Built an e-commerce booking system using WooCommerce with Stripe integration.</p>
+            <p class="project-tools"><span class="label">Tools:</span> WordPress, WooCommerce, Stripe</p>
+            <a class="btn btn-outline btn-small" href="#" aria-label="View Driving Academy project (placeholder)">View Project</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-index" aria-hidden="true">04</span>
+          <h2 id="contact-heading" class="section-title">Contact</h2>
+        </div>
+        <div class="contact-layout reveal">
+          <div class="contact-details">
+            <p class="contact-intro">I'd love to connect. Reach out by email or LinkedIn, or use the form.</p>
+            <ul class="contact-links">
+              <li>
+                <span class="contact-label">Email</span>
+                <a href="mailto:your.email@example.com">your.email@example.com</a>
+              </li>
+              <li>
+                <span class="contact-label">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">linkedin.com/in/your-profile</a>
+              </li>
+            </ul>
+          </div>
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required placeholder="you@example.com">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required placeholder="Your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Ruthie Morales. All rights reserved.</p>
+      <a class="footer-top" href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
